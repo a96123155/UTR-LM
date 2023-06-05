@@ -85,3 +85,6 @@ CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 --m
 - train_atg: Whether to train ATG only
 - train_n_atg: Whether to train only non-ATG
 
+## Reference
+DOI: 10.1234/utrlm
+utr-lm: A Semi-supervised 5%E2%80%99 UTR Language Model for mRNA Translation and Expression Prediction
