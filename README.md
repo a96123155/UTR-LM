@@ -112,6 +112,9 @@ Which Parameters you MUST to define:
 - Patience: the number of epochs used to determine the model parameter during model training
 - test1fold: Whether to test only one fold of data (that is, whether to repeat the test)
 
+### Predict Process
+If you want to quick start, please see ./Scripts/UTRLM_downstream/MJ5_Predict_and_Extract_Attention_Embedding.ipynb
+
 ### Noted
 Please change the directory to your own directory.
 
