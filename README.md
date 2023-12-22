@@ -4,7 +4,7 @@ The untranslated region (UTR) of an RNA molecule plays a vital role in gene expr
 
 ## File Structure
 
-- Data: Store the data files or datasets required by the project. The folder can be found in [https://drive.google.com/drive/folders/1oGGgQ33cbx340vXsH_Ds_Py6Ad0TslLD?usp=share_link](url)
+- Data: Store the data files or datasets required by the project. The folder can be found in [link](https://drive.google.com/drive/folders/1oGGgQ33cbx340vXsH_Ds_Py6Ad0TslLD?usp=share_link)
 
 An example for eight MRL library:
 
@@ -61,7 +61,7 @@ We recommend to use the following code:
 | v4DDP_ESM2_alldata_SecondaryStructure.py    | MLM+SecondaryStructure   | 
 
 Which Parameters you MUST to define:
-- train_fasta: Please download the dataset from [https://drive.google.com/drive/u/1/folders/1_kmnYqYA5PNHQIxvwRgUn_RLZXS8Z7j3](url)
+- train_fasta: Please download the dataset from [link](https://drive.google.com/drive/u/1/folders/1_kmnYqYA5PNHQIxvwRgUn_RLZXS8Z7j3)
 
 ### UTR-LM downstream fine-tuning process
 ##### 1. For MRL task:
@@ -70,7 +70,7 @@ cd ./Scripts/UTRLM_downstream
 CUDA_VISIBLE_DEVICES=0,1,2,3 python3 -m torch.distributed.launch --nproc_per_node=4 --master_port 5001 MJ3_Finetune_extract_append_predictor_Sample_10fold-lr-huber-DDP.py --device_ids 0,1,2,3 --label_type rl --epochs 300 --huber_loss --train_file 4.1_train_data_GSM3130435_egfp_unmod_1.csv --prefix ESM2SISS_FS4.1.ep93.1e-2.dr5 --lr 1e-2 --dropout3 0.5 --modelfile ./Model/Pretrained/ESM2SISS_FS4.1_fiveSpeciesCao_6layers_16heads_128embedsize_4096batchToks_lr1e-05_supervisedweight1.0_structureweight1.0_MLMLossMin_epoch93.pkl --finetune --bos_emb --test1fold
 ```
 Which Parameters you MUST to define:
-- train_file: Please download the dataset from [https://drive.google.com/drive/u/1/folders/1csTXwy3LDCLKnzHHtcRsnu4LiJUEYHm3](url)
+- train_file: Please download the dataset from [link](https://drive.google.com/drive/u/1/folders/1csTXwy3LDCLKnzHHtcRsnu4LiJUEYHm3)
 
 
 ##### 2. For TE and EL task:
@@ -80,7 +80,7 @@ CUDA_VISIBLE_DEVICES=0 python3 -m torch.distributed.launch --nproc_per_node=1 --
 
 ```
 Which Parameters you MUST to define:
-- cell_line: Choose from "Muscle", "pc3" or "HEK"
+- cell_line: Choose from "Muscle", "pc3" or "HEK". Please download the dataset from [link](https://drive.google.com/drive/u/1/folders/190oihtrwCxWjtDCK9kJzyhXPKxbr5xoR)
 - label_type: Choose from "te_log" (TE task) or "rnaseq_log" (EL task)
 
 
@@ -119,4 +119,4 @@ Please change the directory to your own directory.
 [Chu, Yanyi, et al. "A 5'UTR Language Model for Decoding Untranslated Regions of mRNA and Function Predictions." bioRxiv (2023): 2023-10.](https://www.biorxiv.org/content/10.1101/2023.10.11.561938v1)
 
 ## Contact
-Please feel free to contact us, my email is [yanyichu@stanford.edu](url).
+Please feel free to contact us, my email is [yanyichu@stanford.edu](yanyichu@stanford.edu).
