@@ -2,6 +2,9 @@
 
 The untranslated region (UTR) of an RNA molecule plays a vital role in gene expression regulation. Specifically, the 5' UTR, located at the 5' end of an RNA molecule, is a critical determinant of the RNA’s translation efficiency. Language models have demonstrated their utility in predicting and optimizing the function of protein encoding sequences and genome sequences. In this study, we developed a semi-supervised language model for 5’ UTR, which is pre-trained on a combined library of random 5' UTRs and endogenous 5' UTRs from multiple species. We augmented the model with supervised information that can be computed given the sequence, including the secondary structure and minimum free energy, which improved the semantic representation. 
 
+## Implementable Version
+You could run the code in [CodeOcean](https://codeocean.com/capsule/4214075/tree/v1).
+
 ## File Structure
 
 - Data: You can find all data in [CodeOcean](https://codeocean.com/capsule/4214075/tree/v1). Or you could check [link](https://drive.google.com/drive/folders/1oGGgQ33cbx340vXsH_Ds_Py6Ad0TslLD?usp=share_link) to find other data.
