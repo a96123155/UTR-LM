@@ -4,7 +4,7 @@ The untranslated region (UTR) of an RNA molecule plays a vital role in gene expr
 
 ## File Structure
 
-- Data: Store the data files or datasets required by the project. The folder can be found in [link](https://drive.google.com/drive/folders/1oGGgQ33cbx340vXsH_Ds_Py6Ad0TslLD?usp=share_link)
+- Data: You can find all data in [CodeOcean](https://codeocean.com/capsule/4214075/tree/v1). Or you could check [link](https://drive.google.com/drive/folders/1oGGgQ33cbx340vXsH_Ds_Py6Ad0TslLD?usp=share_link) to find other data.
 
 An example for eight MRL library:
 
