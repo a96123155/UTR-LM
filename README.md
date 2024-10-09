@@ -50,6 +50,8 @@ scp -r ./Scripts/esm ./.conda/envs/UTRLM/lib/python3.9/site-packages/ # Move the
 
 
 ## Instruction Example
+**The final parameters and checkpoints are described in the below scripts.**
+
 ### UTR-LM pretraining process
 ```
 cd ./Scripts/UTRLM_pretraining
